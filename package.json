@@ -1,0 +1,19 @@
+{
+  "name": "soecktioserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.4",
+    "express": "^4.17.1",
+    "mssql": "^7.1.3",
+    "socket.io": "^4.1.3"
+  }
+}
